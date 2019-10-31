@@ -4,7 +4,7 @@
     border: solid;
     width: 100%;
     height: 60px;
-    position: block;
+    position: block; /* fixed */
     top: 0px;
 }
 
@@ -34,57 +34,86 @@
     border: solid;
     border-color: red;
     width: 100%; /* maybe change the unit to 100vw */
-    height: 100vh;
-    display: flex;
-    flex-direction: column;
+    height: 90vh;
 }
 
 /* SECTION 1: PROFILE SECTION */
-#pf-photo-area, #pf-name-area, #pf-personal-info, #pf-timeline, #pf-text, #pf-title{
+#pf-photo-area, #pf-name-area, #pf-timeline, #pf-text, #pf-title{
     border: solid;
-    padding: 20px;
+
 }
 
 #pf-photo-area{
     height: 20%;
+    width: 100%;
     display: flex;
+    flex-direction: column;
     justify-content: center;
 }
 
 #profile_photo{
     /*transform: rotate(180deg);*/
-    border-radius: 700px;
+    /* border-radius: 700px; */
     height:200px;
     width: 230px;
-    
 }
 
-/* SECTION 2: GALLUP STRENGHTS */
+#pf-name-area {
+    height: 80%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
 
+/* SECTION 2: SHORT PRESENTATION */
+
+#prs-text-area, #timeline-title-area,#prs-timeline{
+    border: solid;
+    width: 100%;
+}
+
+#prs-text-area{
+    height: 20%;
+}
+
+#timeline-title-area{
+    height: 10%;
+}
+
+#prs-timeline{
+    height: 60%;
+}
+
+.prs-emojis{
+    width: 15px;
+    height: 15px;
+}
+
+
+/* SECTION 3: GALLUP STRENGHTS */
+
+/* head */
 #gallup-logo-area{    
     border: solid;
 }
 
-
 #gallup-logo{
-    width: 100px;
+    width: 500px;
     height: 100px;
 }
 
-.g-strengths-area{
+/* little text on header's section */
+#gallup-text-area{
     border: solid;
-    width: 100%;
-    height: 100vh;
-    display: flex;
-    flex-direction: row;
 }
 
-.gs-logo-area{
+/* strenghts' logo area*/
+.g-logo-area{
     border:solid;
-
 }
 
-.gs-logo{
+.g-logo{
     border:solid; 
     width:80px;
     height: 80px;   
