@@ -1,4 +1,14 @@
 
+/* google font */
+@import url('https://fonts.googleapis.com/css?family=Nunito+Sans');
+
+
+html, body{
+    font-family: 'Nunito Sans', sans-serif;
+
+}
+
+
 /* NAVIGATION BAR */
 #navbar{
     border: solid;
@@ -6,6 +16,7 @@
     height: 60px;
     position: block; /* fixed */
     top: 0px;
+    background-color: #0B0C10;
 }
 
 .nav-links{
@@ -38,9 +49,8 @@
 }
 
 /* SECTION 1: PROFILE SECTION */
-#pf-photo-area, #pf-name-area, #pf-timeline, #pf-text, #pf-title{
+#pf-photo-area, #pf-name-area{
     border: solid;
-
 }
 
 #pf-photo-area{
@@ -59,36 +69,24 @@
 }
 
 #pf-name-area {
-    height: 80%;
+    height: 60%;
     width: 100%;
     display: flex;
     flex-direction: column;
     justify-content: center;
 }
 
-/* SECTION 2: SHORT PRESENTATION */
-
-#prs-text-area, #timeline-title-area,#prs-timeline{
+#prs-text-area{
     border: solid;
     width: 100%;
 }
 
-#prs-text-area{
-    height: 20%;
-}
-
-#timeline-title-area{
-    height: 10%;
-}
-
-#prs-timeline{
-    height: 60%;
-}
 
 .prs-emojis{
     width: 15px;
     height: 15px;
 }
+
 
 
 /* SECTION 3: GALLUP STRENGHTS */
