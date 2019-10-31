@@ -119,6 +119,22 @@
     height: 80px;   
 }
 
+
+/* SECTION 4: CONTACT */
+
+#c-text-area{
+    border: solid;
+}
+
+#c-icons-area{
+    border: solid;
+}
+
+.c-icons-img{
+    width: 100px;
+    height: 100px;
+}
+
 /* FOOTER */
 footer{
     border: solid;
