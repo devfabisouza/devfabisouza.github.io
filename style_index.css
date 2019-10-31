@@ -1,0 +1,99 @@
+
+/* NAVIGATION BAR */
+#navbar{
+    border: solid;
+    width: 100%;
+    height: 60px;
+    position: block;
+    top: 0px;
+}
+
+.nav-links{
+    text-decoration: none;
+    color: #000;
+    display: block;
+    float: right;
+}
+
+#home-logo{
+    border: solid;
+    width: 50px;
+    height: 50px;
+}
+
+#link-home-logo{
+    text-decoration: none;
+    display: block;
+    float: left;
+}
+
+
+/* GENERAL CONFIGURATIONS FOR SECTIONS */
+
+.sections{
+    border: solid;
+    border-color: red;
+    width: 100%; /* maybe change the unit to 100vw */
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+/* SECTION 1: PROFILE SECTION */
+#pf-photo-area, #pf-name-area, #pf-personal-info, #pf-timeline, #pf-text, #pf-title{
+    border: solid;
+    padding: 20px;
+}
+
+#pf-photo-area{
+    height: 20%;
+    display: flex;
+    justify-content: center;
+}
+
+#profile_photo{
+    /*transform: rotate(180deg);*/
+    border-radius: 700px;
+    height:200px;
+    width: 230px;
+    
+}
+
+/* SECTION 2: GALLUP STRENGHTS */
+
+#gallup-logo-area{    
+    border: solid;
+}
+
+
+#gallup-logo{
+    width: 100px;
+    height: 100px;
+}
+
+.g-strengths-area{
+    border: solid;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: row;
+}
+
+.gs-logo-area{
+    border:solid;
+
+}
+
+.gs-logo{
+    border:solid; 
+    width:80px;
+    height: 80px;   
+}
+
+/* FOOTER */
+footer{
+    border: solid;
+    width: 100%;
+    bottom: 0px;
+    display: block;
+}
