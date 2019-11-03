@@ -13,10 +13,10 @@ html, body{
 #navbar{
     width: 100%;
     height: 70px;
-    position: block; /* fixed */
+    position: block;
     top: 0px;
     background-color: #0B0C10;
-    
+
 }
 
 .nav-links{
@@ -48,28 +48,31 @@ html, body{
 /* GENERAL CONFIGURATIONS FOR SECTIONS */
 
 .sections{
-    border: solid;
-    border-color: red;
+    border: solid red;
     width: 100%; /* maybe change the unit to 100vw */
     height: 90vh;
 }
 
-/* SECTION 1: WELCOME SECTION */
+/* SECTION 1: general styling on WELCOME SECTION */
 
-.welcome-section {
+.welcome-section{
+    /* border: solid greenyellow; */
     background-color: #0B0C10;
     color: #fff;
+    width: 100%;
+    height: 100%;
 }
 
 /* SECTION 1: profile picture */
 
-#pf-photo-area{
-    height: 50%;
+
+#welcome-area{
     width: 100%;
+    height: 100%;
     display: flex;
+    flex-direction: column;
     justify-content: center; /* horizontal alignment */
-    align-items: center; /* vertical alignment */  
-    padding: 20px;  
+    align-items: center; /* vertical alignment */
 }
 
 #profile_photo{
@@ -79,32 +82,29 @@ html, body{
     width: 300px;
 }
 
-/* SECTION 1: presentation area */
-
-#welcome-text-area{
-    height: 30%;
-    width: 100%;
+#text-area{
     display: flex;
     flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    padding: 30px;
-    padding-bottom: 20px;
+    justify-content: center; /* horizontal alignment */
+    align-items: center; /* vertical alignment */
 }
 
-#welcome-text-area h1{
+#text-area h1{
     margin: 1px;
     font-size: 50px;
     color: #ff9100;
 }
 
-#welcome-text-area h2{
+#text-area h2{
     margin-top: 1px;
     font-size: 25px;
 }
 
-/* SECTION 1: short text */
 
+
+/* SECTION 2: presentation and GALLUP STRENGHTS */
+
+/* SECTION 2: presentation short text */
 #short-text-area{
     width: 100%;
     height: 20%;
@@ -114,8 +114,7 @@ html, body{
     flex-direction: column;
     justify-items: center;
     align-items: center;
-    padding: 15px;
-    margin: 1px;
+    padding: 20px;
 }
 
 #emj-germany-flag{
@@ -128,23 +127,29 @@ html, body{
     height: 40px;
 }
 
-
-
-/* SECTION 3: GALLUP STRENGHTS */
-
 /* head */
-#gallup-logo-area{    
-    border: solid;
+#gallup-logo-area{
+    margin-top: 20px;
+    padding: 10px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 #gallup-logo{
-    width: 500px;
+    width: 400px;
     height: 100px;
 }
 
 /* little text on header's section */
 #gallup-text-area{
     border: solid;
+    padding: 10px;
+    font-size: 25px;
+    font-weight: bold;
+    text-align: center;
+    color: #ff9100;
 }
 
 /* strenghts' logo area*/
@@ -153,9 +158,9 @@ html, body{
 }
 
 .g-logo{
-    border:solid; 
+    border:solid;
     width:80px;
-    height: 80px;   
+    height: 80px;
 }
 
 
