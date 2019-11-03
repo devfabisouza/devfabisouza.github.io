@@ -128,32 +128,17 @@ html, body{
 }
 
 
-/* SECTION 2: presentation and GALLUP STRENGHTS */
-
-/* little text on header's section */
-.gallup-text-area{
-    font-size: 25px;
-    font-weight: bold;
-    text-align: center;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    color: #ff9100;
-    padding: 20px;
-}
-
-.gallup-text-area p{
-    margin: 0;
-    padding: 0;
-}
+/* SECTION 2: GALLUP STRENGHTS */
 
 #gallup-logo-area{
-    padding: 30px;
+    padding: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 #gallup-logo{
-    width: 500px;
+    width: 600px;
     height: 100px;
 }
 
@@ -169,7 +154,7 @@ html, body{
 .g-icons{
     width:100px;
     height: 100px;
-    padding: 20px;
+    padding: 30px;
 }
 
 
