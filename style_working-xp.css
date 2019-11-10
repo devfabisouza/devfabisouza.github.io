@@ -1,0 +1,104 @@
+/* google font */
+@import url('https://fonts.googleapis.com/css?family=Nunito+Sans');
+
+
+html, body{
+    font-family: 'Nunito Sans', sans-serif;
+    background-color: #0B0C10;
+}
+
+
+/* NAVIGATION BAR */
+#navbar{
+    width: 100%;
+    height: 70px;
+    position: fixed;
+    top: 0px;
+    background-color: #0B0C10;
+
+}
+
+.nav-links{
+    text-decoration: none;
+    color: #000;
+    display: block;
+    float: right;
+    color: #ff9100;
+    padding: 20px;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.nav-links:hover{
+    background-color: #ffb24d;
+    color: #fff
+}
+
+#home-logo{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    padding: 10px;
+    transform: rotate(180deg)
+}
+
+#link-home-logo{
+    transform: rotate(180deg);
+    text-decoration: none;
+    display: block;
+    float: left;
+}
+
+/* ------------------------------------------------------- */
+
+#constr-icon-section{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    margin-top: 100px;
+}
+
+#constr-icon{
+    width: 400px;
+    height: 400px;    
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* ------------------------------------------------------- */
+
+/* FOOTER */
+footer{     
+    background-color: #ff9100;
+    width: 100%;
+    height: 60px;
+    bottom: 0px;
+    position: fixed;
+    color: #fff;
+    text-align: center;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+#footer-section{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}
+
+#footer-heart{
+    width: 20px;
+    height: 20px;
+}
