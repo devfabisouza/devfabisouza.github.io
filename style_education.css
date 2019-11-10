@@ -60,18 +60,61 @@ html, body{
     display: flex;
     flex-direction: column; /* row */
     color: #fff;
+    margin: 100px;
 }
 
-#education-icon{
-    border: solid;
-    height: 30px;
-    width: 30px;
+.title-section{
+    display: flex;
+    flex-direction: row;
+
+}
+
+.title-section p{
+    margin: 0px;
+    padding: 20px 0px;
+
+}
+
+.img-section{
+    height: 100%;
+    width: 10%;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}
+.img-section img{
+    height: 40px;
+    width: 45px;
 }
 
 .course-name{
-    font-size: 20px;
+    height: 100%;
+    width: 90%;
+    display: flex;
+    justify-content: left;
+    align-content: center;
+}
+
+.course-name p{
+    font-size: 40px;
     font-weight: bold;
 }
+
+.degree-section{
+    width: 90%;
+    display: flex;
+    flex-direction: column;
+    align-self: flex-end;
+}
+
+.degree-section p{
+    font-size: 18px;
+    margin: 0px;
+    padding: 10px;
+    font-style: italic;
+}
+
 
 
 
@@ -84,13 +127,17 @@ footer{
     width: 100%;
     height: 70px;
     bottom: 0px;
-    display: flex;
-    justify-content: center;
-    align-content: center;
+    position: fixed;
     color: #fff;
     text-align: center;
     font-weight: bold;
     font-size: 20px;
+}
+
+#footer-section{
+    display: flex;
+    justify-content: center;
+    align-content: center;
 }
 
 #footer-heart{
