@@ -4,74 +4,109 @@
 
 html, body{
     font-family: 'Nunito Sans', sans-serif;
-    background-color: #0B0C10;
+    background-color: #F6CFA3;
+    color:#000;
+    padding: 0;
+    margin: 0;
 }
 
 
 /* NAVIGATION BAR */
-#navbar{
+#navbar{ 
     width: 100%;
-    height: 70px;
+    height: 7%;
     position: fixed;
-    top: 0px;
     background-color: #0B0C10;
+}
 
+#link-home-logo{
+    text-decoration: none;
+    display: block;
+    float: left;
+    height: 100%;
+}
+
+#home-logo{
+    width: 50px;
+    height: 50px;
+    padding: 10px;
 }
 
 .nav-links{
-    text-decoration: none;
-    color: #000;
-    display: block;
     float: right;
+    text-decoration: none;
     color: #ff9100;
-    padding: 20px;
+    height: 100%;
+    width: 198px;
     font-size: 20px;
     font-weight: bold;
-}
+    display: flex;
+    justify-content: center;
+    align-items: center;}
 
 .nav-links:hover{
     background-color: #ffb24d;
     color: #fff
 }
 
-#home-logo{
-    width: 50px;
-    height: 50px;
-    border-radius: 50%;
-    padding: 10px;
-    transform: rotate(180deg)
+#education-link{
+    background-color: #ffb24d;
+    color: #fff
 }
 
-#link-home-logo{
-    transform: rotate(180deg);
-    text-decoration: none;
-    display: block;
-    float: left;
-}
+/* secions' title  settings */
 
-/* SECTION 1: title */
-
-#title-section{
-    margin-top: 100px;
+.title-section{
     display: flex;
     justify-content: center;
     align-content: center;
 }
 
-#title-section h1{
-    color: #ff9100;
+.title-section h2{
     font-size: 50px;
 }
 
+/* EDUCATION: Language Skills */
 
-/* EDUCATIONS: DEGREES */
+#lang-skills-title, #education-title{
+    padding-top: 100px;
+}
+
+.lang-skill-area{
+    width: 300px;
+    height: 80px;
+    margin: auto;
+    display: flex;
+    flex-direction: row;
+    /* justify-content: center; */
+}
+
+.lang-icon-area{
+    width: 70px;
+    height: 100%;
+    display: flex;
+}
+
+.lang-icon{
+    width: 50px;
+    height: 50px;
+    padding: 20px 10px;
+}
+
+.lang-name-area{
+    /* padding-left: 5px; */
+    font-size: 25px;
+    font-weight: bold;
+}
+
+/* EDUCATION: DEGREES */
 
 .education-section{
     /* border: solid; */
     display: flex;
     flex-direction: column;
     align-content: center;
-    color: #fff;
+    /* color: #fff; */
     margin: 30px;
     padding: 30px;
 }
@@ -138,17 +173,7 @@ html, body{
 
 /* EDUCATION: CONTINUING EDUCATION */
 
-#cont-edu-section{
-    margin: auto;
-    display: flex;
-    justify-content: center;
-    align-content: center;
-}
 
-#cont-edu-section h1{
-    color: #ff9100;
-    font-size: 50px;
-}
 
 
 
@@ -156,13 +181,14 @@ html, body{
 
 
 /* FOOTER */
-footer{     
-    background-color: #ff9100;
+footer{
+    border: solid #000;
+    background-color: #0B0C10;
     width: 100%;
     height: 60px;
     bottom: 0px;
     position: block;
-    color: #fff;
+    color: #ff9100;
     text-align: center;
     font-weight: bold;
     font-size: 20px;
