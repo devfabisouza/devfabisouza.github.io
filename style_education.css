@@ -29,7 +29,7 @@ html, body{
 }
 
 #img-home-logo{
-    width: 100%;
+    width: 95%;
     height: 100%;
     padding: 4px;
 }
@@ -102,14 +102,13 @@ html, body{
 
 /* EDUCATION: DEGREES */
 
-.degrees-area{
+.educations-area{
     display: flex;
     flex-direction: row;
     justify-content: center;
     align-items: center;
     margin: 20px;
 }
-
 
 .course-section{
     height: 100%; 
@@ -162,13 +161,6 @@ html, body{
     font-style: italic;
     line-height: 1.6;
 }
-
-/* EDUCATION: CONTINUING EDUCATION */
-
-
-
-
-
 
 
 
