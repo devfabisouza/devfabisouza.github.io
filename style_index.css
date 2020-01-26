@@ -166,26 +166,26 @@ html, body{
     height: 10%;
     padding: 30px;
 }
-
-.gallup-blocks{
+ 
+/* ------------------------------------------- */
+.g-strengths-blocks{
     display: flex;
     flex-direction: row;
+    flex-wrap: wrap;
     align-items: center;
     justify-content: center;
-    height: 20%;
+    height: 80%;
 }
 
-.g-strenght-block{
+.g-blocks-area{
     width: 450px;
-    height:140px;
+    height:100px;
     display: flex;
     flex-direction: row;
-    /* align-items: center; */
-    /* justify-content: center; */
     padding: 10px;
 }
 
-.gallup-icon{
+.g-icons-area{
     width: 50%;
     height: 100%;
     display: flex;
@@ -198,7 +198,7 @@ html, body{
     height: 100px;
 }
 
-.gallup-description{
+.g-description{
     width:100%;
     height: 100%;
     color: #ff9100;
