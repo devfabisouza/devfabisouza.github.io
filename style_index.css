@@ -133,25 +133,53 @@ html, body{
     align-items: center;
     justify-content: center;
     height: 50%;
+    /* padding: 20px; */
 }
 
 .tools-icons-small{
-    /* border: solid #fff; */
-    width: 90px;
+    width: 60px;
     height: 80px;
     padding: 20px;
 }
 
-.tools-icons-large{
-    /* border: solid #fff; */
-    width: 170px;
-    height: 80px;
-    padding: 10px;
+#icon-git{
+    width: 70px;
+    height: 70px;
+    padding: 20px;
 }
 
-#tosca-icon {
-    width: 220px;
+#icon-database{
+    width: 60px;
+    height: 70px;
+    padding: 20px;
 }
+
+#icon-java{
+    width: 60px;
+    height: 90px;
+    padding: 20px
+}
+
+#icon-angular, #icon-python, #icon-ruby{
+    width: 70px;
+    height: 70px;
+    padding: 20px;
+}
+
+#icon-php{
+    width: 110px;
+    height: 70px;
+    padding: 20px;
+}
+
+.tools-icons-large{
+    width: 180px;
+    height: 60px;
+    padding: 20px;
+}
+
+
+
 
 
 /* SECTION 3: GALLUP Strengths */
